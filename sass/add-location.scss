@@ -1,0 +1,215 @@
+/* ####################################################
+NOTE
+scss file for review
+###################################################
+*/
+
+@import "bootstrap-responsive";
+
+
+
+$gridFluidColumnWidth: 6.38298%;
+$gridFluidGutterWidth: 2.12766%;
+
+@mixin makeFluidRow() {
+  width: 100%;
+  @include clearfix();
+}
+@mixin makeFluidColumn($columns: 1, $offset: 0, $marginRate: 1) {
+  float: left;
+  margin-left: (($gridFluidColumnWidth * $offset) + ($gridFluidGutterWidth * ($offset - 1)) + ($gridFluidGutterWidth * 2)) * $marginRate;
+  width: ($gridFluidColumnWidth * $columns) + ($gridFluidGutterWidth * ($columns - 1));
+  
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+$margin_padding: 15px;
+
+.ya-article {
+  @include makeFluidRow();
+  .ya-add-edit-location {
+    @include makeFluidColumn(6);
+    background-color: #FFF9E6;
+    border: 2px solid #999999;
+    border-radius: 5px; 
+    padding: $margin_padding;
+    @media (max-width: 979px) {                                    
+      @include makeFluidColumn(8.4);
+    }
+    @media (max-width: 767px) {
+      @include makeFluidColumn(11.3, 0, 0);
+      border: none;
+      float: none;
+      margin: 100px auto 0;
+    }
+    @media (max-width: 460px) {
+      @include makeFluidColumn(10.9, 0, 0);
+      float: none;
+      margin: 0 auto;
+    }
+  }
+  .ya-left-sidebar {
+    @include makeFluidColumn(3);
+  }
+  .ya-right-sidebar {
+    @include makeFluidColumn(3);
+  }
+
+}
+
+
+
+
+$yellow: #E5A053;
+$lead_font_size: 16px;
+.main-box {
+  padding: $margin_padding * 2;
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
+
+.ya-annul-cost {
+  background-color: #fff;  
+  border: 2px solid #999999;   
+  border-radius: 8px;
+  padding: $margin_padding;
+  margin: $margin_padding 0;
+  span {
+    margin: 9px 0;
+  }
+}
+.ya-add-location-block {
+  @include makeFluidRow();
+  margin-bottom: $margin_padding;
+  position: relative;
+}
+article {
+  @extend .ya-add-location-block;
+}
+
+$icon_font_size: 20px;
+span[data-icon] {
+  font-size: $icon_font_size;
+  margin: 10px;
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.ya-add-location-btngroup {
+  @include makeFluidRow();
+  text-align:center;
+
+
+  > .btn {
+    margin-right: $margin_padding;
+  }
+}
+
+.ya-help-icon {
+  color: #E5A053 !important;
+}
+.ya-button-large {
+  width: 220px;
+}
+.ya-grey-border-bottom {
+  padding-bottom: 10px;
+  margin: $margin_padding 0;
+  border-bottom: 2px solid #ccc;
+}
+.ya-black-border-bottom {
+  @extend .ya-grey-border-bottom;
+  border-bottom: 2px solid #333;
+}
+h1.ya-page-title {
+   border-bottom: 1px solid black;
+}
+
+.ya-contact-address {
+  @include makeFluidRow();
+  .ya-address-info {
+    @include makeFluidColumn(6);
+    @media (max-width: 767px) {
+      @include makeFluidColumn(12, 0, 0);
+    }
+
+  }
+  .ya-contact-details {
+    @include makeFluidColumn(6);
+    @media (max-width: 767px) {
+      @include makeFluidColumn(12, 0, 0);
+    }
+  }
+}
+.ya-control-group {
+  margin-bottom: $margin_padding;
+  input {
+    width: 95%;
+  }
+  select {
+    width: 100%;
+  }
+  .ya-required-mark {
+    margin-left: 3px;
+    color: red;
+    font-size: 18px;
+  }
+}
+select {
+  color: black;
+  option { 
+    color: black; 
+  }
+}
+select.ya-empty { 
+  color: gray; 
+}
+input[type='checkbox'] {
+  float:left;
+  margin-right: 5px;
+  + label {
+    float: left;
+  }
+}
+
+h1.ya-page-title {
+   border-bottom: 1px solid black;
+   padding: $margin_padding / 2 0;
+}
+h3.ya-page-title {
+  @extend h1.ya-page-title;
+}
+.ya-checkbox-group {
+  @include clearfix();
+  margin: 15px 0;
+}
+.ya-empty-region {
+  @include makeFluidColumn(6);
+}
+.ya-location-profile-img {
+  @include makeFluidColumn(6);
+  @media (max-width: 767px) {
+    @include makeFluidColumn(12, 0, 0);
+  }
+}
+.ya-location-image {
+  @extend .ya-annul-cost;
+  display: none;
+}
+figure {
+  margin: $margin_padding;
+  text-align: center;
+  .btn {
+    margin-top: $margin_padding * 2;
+  }
+}
+.ya-input-xmedium {
+  width: 185px;
+}
+.ya-add-location-btngroup {
+  text-align: center;
+}
+
