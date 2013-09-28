@@ -903,67 +903,58 @@ span[data-icon="E"], span[data-icon="C"] {
   margin: 6px 0 6px 6px;
 }
 
-/* line 276, ../sass/screen.scss */
-.container-fluid {
-  background-color: white;
-  max-width: 1170px;
-  margin: 0 auto;
-  border-radius: 6px;
-  border: 1px solid #4e453e;
-}
-
-/* line 286, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 span[data-icon] {
   margin-right: .4em;
 }
 
-/* line 290, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .ya-section {
   margin-bottom: 30px;
 }
-/* line 293, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .ya-section h2 {
   border-bottom: 1px solid #d6cdbf;
   margin-bottom: 20px;
 }
 
-/* line 300, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 .ya-designation-icon {
   font-size: 150px;
   color: #6B6B6B;
   text-align: center;
 }
 
-/* line 309, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .ya-application-details h2 {
   border-bottom: none;
 }
 
-/* line 314, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 .ya-school-track-info {
   border: 1px solid #d6cdbf;
   border-radius: 6px;
   padding: 10px 20px;
 }
 
-/* line 321, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 .ya-abbreviation-key dd {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 324, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .ya-review-queue-notes {
   background-color: #fbfbfb;
 }
 
-/* line 327, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .ya-review-queue-notes img {
   border-radius: 6px;
 }
 
-/* line 330, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 .ya-review-queue-notes label {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
@@ -971,33 +962,33 @@ span[data-icon] {
   font-size: 14px;
 }
 
-/* line 334, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .ya-review-queue-notes input[type='checkbox'] {
   height: 16px;
   width: 16px;
 }
 
-/* line 338, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 .ya-client-note {
   border: 2px solid #4e453e;
   border-radius: 6px;
 }
 
-/* line 342, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 .ya-staff-note, .ya-internal-note, .ya-client-note {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 345, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .ya-signature h5 {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 348, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 .ya-signature p {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -1005,11 +996,11 @@ span[data-icon] {
   color: #afa58f;
 }
 
-/* line 353, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 .ya-internal-note {
   background-color: #fcf8e3;
 }
-/* line 355, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 .ya-internal-note h4 {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;

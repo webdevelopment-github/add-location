@@ -1,0 +1,381 @@
+/* ####################################################
+NOTE
+scss file for review
+###################################################
+*/
+/* line 30, ../sass/add-location - Copy.scss */
+.ya-article {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 15, ../sass/_mixins.scss */
+.ya-article:before, .ya-article:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../sass/_mixins.scss */
+.ya-article:after {
+  clear: both;
+}
+/* line 32, ../sass/add-location - Copy.scss */
+.ya-article .ya-add-edit-location {
+  float: left;
+  margin-left: 2.12766%;
+  width: 48.93618%;
+  background-color: #FFF9E6;
+  border: 2px solid #999999;
+  border-radius: 5px;
+  padding: 15px;
+}
+/* line 23, ../sass/add-location - Copy.scss */
+.ya-article .ya-add-edit-location:first-child {
+  margin-left: 0;
+}
+@media (max-width: 979px) {
+  /* line 32, ../sass/add-location - Copy.scss */
+  .ya-article .ya-add-edit-location {
+    float: left;
+    margin-left: 2.12766%;
+    width: 69.36172%;
+  }
+  /* line 23, ../sass/add-location - Copy.scss */
+  .ya-article .ya-add-edit-location:first-child {
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 32, ../sass/add-location - Copy.scss */
+  .ya-article .ya-add-edit-location {
+    float: left;
+    margin-left: 0%;
+    width: 94.04257%;
+    border: none;
+    float: none;
+    margin: 100px auto 0;
+  }
+  /* line 23, ../sass/add-location - Copy.scss */
+  .ya-article .ya-add-edit-location:first-child {
+    margin-left: 0;
+  }
+}
+@media (max-width: 460px) {
+  /* line 32, ../sass/add-location - Copy.scss */
+  .ya-article .ya-add-edit-location {
+    float: left;
+    margin-left: 0%;
+    width: 90.63832%;
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 23, ../sass/add-location - Copy.scss */
+  .ya-article .ya-add-edit-location:first-child {
+    margin-left: 0;
+  }
+}
+/* line 53, ../sass/add-location - Copy.scss */
+.ya-article .ya-left-sidebar {
+  float: left;
+  margin-left: 2.12766%;
+  width: 23.40426%;
+}
+/* line 23, ../sass/add-location - Copy.scss */
+.ya-article .ya-left-sidebar:first-child {
+  margin-left: 0;
+}
+/* line 56, ../sass/add-location - Copy.scss */
+.ya-article .ya-right-sidebar {
+  float: left;
+  margin-left: 2.12766%;
+  width: 23.40426%;
+}
+/* line 23, ../sass/add-location - Copy.scss */
+.ya-article .ya-right-sidebar:first-child {
+  margin-left: 0;
+}
+
+/* line 67, ../sass/add-location - Copy.scss */
+.main-box {
+  padding: 30px;
+}
+@media (max-width: 767px) {
+  /* line 67, ../sass/add-location - Copy.scss */
+  .main-box {
+    padding: 0;
+  }
+}
+
+/* line 74, ../sass/add-location - Copy.scss */
+.ya-annul-cost, .ya-location-image {
+  background-color: #fff;
+  border: 2px solid #999999;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+}
+/* line 80, ../sass/add-location - Copy.scss */
+.ya-annul-cost span, .ya-location-image span {
+  margin: 9px 0;
+}
+
+/* line 84, ../sass/add-location - Copy.scss */
+.ya-add-location-block, article {
+  width: 100%;
+  *zoom: 1;
+  margin-bottom: 15px;
+  position: relative;
+}
+/* line 15, ../sass/_mixins.scss */
+.ya-add-location-block:before, article:before, .ya-add-location-block:after, article:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../sass/_mixins.scss */
+.ya-add-location-block:after, article:after {
+  clear: both;
+}
+
+/* line 94, ../sass/add-location - Copy.scss */
+span[data-icon] {
+  font-size: 20px;
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  /* line 94, ../sass/add-location - Copy.scss */
+  span[data-icon] {
+    font-size: 18px;
+  }
+}
+
+/* line 102, ../sass/add-location - Copy.scss */
+.ya-add-location-btngroup {
+  width: 100%;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 15, ../sass/_mixins.scss */
+.ya-add-location-btngroup:before, .ya-add-location-btngroup:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../sass/_mixins.scss */
+.ya-add-location-btngroup:after {
+  clear: both;
+}
+/* line 107, ../sass/add-location - Copy.scss */
+.ya-add-location-btngroup > .btn {
+  margin-right: 15px;
+}
+
+/* line 112, ../sass/add-location - Copy.scss */
+.ya-help-icon {
+  color: #E5A053 !important;
+}
+
+/* line 115, ../sass/add-location - Copy.scss */
+.ya-button-large {
+  width: 220px;
+}
+
+/* line 118, ../sass/add-location - Copy.scss */
+.ya-grey-border-bottom, .ya-black-border-bottom {
+  padding-bottom: 10px;
+  margin: 15px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+/* line 123, ../sass/add-location - Copy.scss */
+.ya-black-border-bottom {
+  border-bottom: 2px solid #333;
+}
+
+/* line 127, ../sass/add-location - Copy.scss */
+h1.ya-page-title, h3.ya-page-title {
+  border-bottom: 1px solid black;
+}
+
+/* line 131, ../sass/add-location - Copy.scss */
+.ya-contact-address {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 15, ../sass/_mixins.scss */
+.ya-contact-address:before, .ya-contact-address:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../sass/_mixins.scss */
+.ya-contact-address:after {
+  clear: both;
+}
+/* line 133, ../sass/add-location - Copy.scss */
+.ya-contact-address .ya-address-info {
+  float: left;
+  margin-left: 2.12766%;
+  width: 48.93618%;
+}
+/* line 23, ../sass/add-location - Copy.scss */
+.ya-contact-address .ya-address-info:first-child {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  /* line 133, ../sass/add-location - Copy.scss */
+  .ya-contact-address .ya-address-info {
+    float: left;
+    margin-left: 0%;
+    width: 100.00002%;
+  }
+  /* line 23, ../sass/add-location - Copy.scss */
+  .ya-contact-address .ya-address-info:first-child {
+    margin-left: 0;
+  }
+}
+/* line 140, ../sass/add-location - Copy.scss */
+.ya-contact-address .ya-contact-details {
+  float: left;
+  margin-left: 2.12766%;
+  width: 48.93618%;
+}
+/* line 23, ../sass/add-location - Copy.scss */
+.ya-contact-address .ya-contact-details:first-child {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  /* line 140, ../sass/add-location - Copy.scss */
+  .ya-contact-address .ya-contact-details {
+    float: left;
+    margin-left: 0%;
+    width: 100.00002%;
+  }
+  /* line 23, ../sass/add-location - Copy.scss */
+  .ya-contact-address .ya-contact-details:first-child {
+    margin-left: 0;
+  }
+}
+
+/* line 147, ../sass/add-location - Copy.scss */
+.ya-control-group {
+  margin-bottom: 15px;
+}
+/* line 149, ../sass/add-location - Copy.scss */
+.ya-control-group input {
+  width: 95%;
+}
+/* line 152, ../sass/add-location - Copy.scss */
+.ya-control-group select {
+  width: 100%;
+}
+/* line 155, ../sass/add-location - Copy.scss */
+.ya-control-group .ya-required-mark {
+  margin-left: 3px;
+  color: red;
+  font-size: 18px;
+}
+
+/* line 161, ../sass/add-location - Copy.scss */
+select {
+  color: black;
+}
+/* line 163, ../sass/add-location - Copy.scss */
+select option {
+  color: black;
+}
+
+/* line 167, ../sass/add-location - Copy.scss */
+select.ya-empty {
+  color: gray;
+}
+
+/* line 170, ../sass/add-location - Copy.scss */
+input[type='checkbox'] {
+  float: left;
+  margin-right: 5px;
+}
+/* line 173, ../sass/add-location - Copy.scss */
+input[type='checkbox'] + label {
+  float: left;
+}
+
+/* line 178, ../sass/add-location - Copy.scss */
+h1.ya-page-title, h3.ya-page-title {
+  border-bottom: 1px solid black;
+  padding: 7.5px 0;
+}
+
+/* line 185, ../sass/add-location - Copy.scss */
+.ya-checkbox-group {
+  *zoom: 1;
+  margin: 15px 0;
+}
+/* line 15, ../sass/_mixins.scss */
+.ya-checkbox-group:before, .ya-checkbox-group:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../sass/_mixins.scss */
+.ya-checkbox-group:after {
+  clear: both;
+}
+
+/* line 189, ../sass/add-location - Copy.scss */
+.ya-empty-region {
+  float: left;
+  margin-left: 2.12766%;
+  width: 48.93618%;
+}
+/* line 23, ../sass/add-location - Copy.scss */
+.ya-empty-region:first-child {
+  margin-left: 0;
+}
+
+/* line 192, ../sass/add-location - Copy.scss */
+.ya-location-profile-img {
+  float: left;
+  margin-left: 2.12766%;
+  width: 48.93618%;
+}
+/* line 23, ../sass/add-location - Copy.scss */
+.ya-location-profile-img:first-child {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  /* line 192, ../sass/add-location - Copy.scss */
+  .ya-location-profile-img {
+    float: left;
+    margin-left: 0%;
+    width: 100.00002%;
+  }
+  /* line 23, ../sass/add-location - Copy.scss */
+  .ya-location-profile-img:first-child {
+    margin-left: 0;
+  }
+}
+
+/* line 198, ../sass/add-location - Copy.scss */
+.ya-location-image {
+  display: none;
+}
+
+/* line 202, ../sass/add-location - Copy.scss */
+figure {
+  margin: 15px;
+  text-align: center;
+}
+/* line 205, ../sass/add-location - Copy.scss */
+figure .btn {
+  margin-top: 30px;
+}
+
+/* line 209, ../sass/add-location - Copy.scss */
+.ya-input-xmedium {
+  width: 185px;
+}
+
+/* line 212, ../sass/add-location - Copy.scss */
+.ya-add-location-btngroup {
+  text-align: center;
+}

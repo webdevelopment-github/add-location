@@ -4,8 +4,9 @@ scss file for review
 ###################################################
 */
 
-@import "bootstrap-responsive";
-
+@import "variables";
+@import "mixins";
+@import "screen";
 
 
 $gridFluidColumnWidth: 6.38298%;
@@ -19,6 +20,7 @@ $gridFluidGutterWidth: 2.12766%;
   float: left;
   margin-left: (($gridFluidColumnWidth * $offset) + ($gridFluidGutterWidth * ($offset - 1)) + ($gridFluidGutterWidth * 2)) * $marginRate;
   width: ($gridFluidColumnWidth * $columns) + ($gridFluidGutterWidth * ($columns - 1));
+  *width: ($gridFluidColumnWidth * $columns) + ($gridFluidGutterWidth * ($columns - 1)) - 0.532%;
   
   &:first-child {
     margin-left: 0;
@@ -147,7 +149,11 @@ h1.ya-page-title {
 .ya-control-group {
   margin-bottom: $margin_padding;
   input {
-    width: 95%;
+    width: 100%;
+	height:auto;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   }
   select {
     width: 100%;
@@ -213,3 +219,9 @@ figure {
   text-align: center;
 }
 
+/*  .ya-contact-address .ya-address-info  */
+.ya-control-group{
+	input{
+		*width:94%;
+	}
+}
